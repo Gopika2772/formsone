@@ -16,7 +16,7 @@ async function postData() {
         name: name.value,
         email: email.value,
     }
-    axios.post("http://65.1.134.25:8080/post-forms", data)
+    axios.post("http://13.233.154.146:8080/post-forms", data)
         .then((res) => {
             // console.log("Working")
             window.location.href = "/data";

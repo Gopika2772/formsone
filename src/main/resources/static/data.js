@@ -1,7 +1,7 @@
 const data = document.getElementById("data")
 console.log("data script is working");
 let arr = [];
-axios.get("http://65.1.134.25:8080/get-forms")
+axios.get("http://13.233.154.146:8080/get-forms")
     .then((res) => {
         console.log(arr);
         arr = res.data;
